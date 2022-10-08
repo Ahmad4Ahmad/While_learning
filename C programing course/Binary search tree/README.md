@@ -7,7 +7,7 @@ Binary Search Tree is a node-based binary tree data structure which has the foll
 ## About the program
 Implemintation for binary search tree with example.
 
-<img src="./image/screenshot.png" height="469" width="166"/>
+<img src="./image/Screenshot.png" height="166" width="469"/>
 
 ## Run the program
 ```
