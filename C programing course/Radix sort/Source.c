@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int getMax(int*, int);
 void countSort(int*, int, int);
@@ -62,7 +64,7 @@ void countSort(int* arr, int n, int exp)
 	int i;
 	int count[10] = { 0 };
 
-	output = (int*)calloc(n * sizeof(int));
+	output = (int*)calloc(n, sizeof(int));
 	if (output == NULL)
 	{
 		printf("Memory allocation failed!");
