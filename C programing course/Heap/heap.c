@@ -2,6 +2,7 @@
 #define MAX_SIZE 20
 
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct heapNode
 {
